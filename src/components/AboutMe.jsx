@@ -10,7 +10,7 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black text-white px-6 py-16 md:px-24">
+    <div className="min-h-screen overflow-x-hidden bg-black text-white px-6 py-16 md:px-24">
       <h2
         className="text-4xl font-bold text-center mb-12 text-cyan-400"
         data-aos="fade-down"

@@ -18,8 +18,9 @@ function Navbar({ onNavigate }) {
   };
 
   return (
-    <nav className="bg-black text-white px-6 py-4 fixed w-full z-50 shadow-md">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-black text-white fixed w-full z-50 shadow-md">
+      {/* Main nav container */}
+      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-2xl font-bold text-cyan-400 cursor-pointer">Amal</h1>
 
@@ -47,7 +48,7 @@ function Navbar({ onNavigate }) {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <ul className="md:hidden mt-4 space-y-4 px-6 pb-4 text-lg font-medium bg-black">
+        <ul className="md:hidden px-4 pb-4 text-lg font-medium bg-black space-y-4">
           {menuItems.map((item) => (
             <li
               key={item.key}

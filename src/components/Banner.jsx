@@ -4,8 +4,7 @@ import { motion } from 'framer-motion';
 
 function Banner() {
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between items-center min-h-screen bg-black text-white px-6 md:px-20 py-10 md:py-0">
-      
+    <div className="flex flex-col-reverse md:flex-row justify-between items-center min-h-screen bg-black text-white px-6 md:px-20 pt-[100px] md:pt-[80px] pb-10">
       {/* Left Section */}
       <motion.div 
         className="w-full md:w-1/2 space-y-6 text-center md:text-left"
@@ -14,11 +13,11 @@ function Banner() {
         transition={{ duration: 1 }}
       >
         <h2 className="text-xl md:text-2xl text-cyan-300 font-medium">Hi, I'm</h2>
-        
+
         <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-cyan-400 via-cyan-200 to-white bg-clip-text text-transparent drop-shadow-lg">
           Amal. S
         </h1>
-        
+
         <div className="h-[3px] w-32 bg-cyan-400 mx-auto md:mx-0 rounded-full mb-2"></div>
 
         <p className="text-lg md:text-2xl text-gray-300 leading-relaxed">
